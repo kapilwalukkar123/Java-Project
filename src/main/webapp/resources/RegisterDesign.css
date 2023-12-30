@@ -1,0 +1,104 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  
+}
+
+body{
+	background-color: #2f6b6b;
+}
+
+
+.b {
+	position: absolute;
+	left: 10px;
+	background-color: #1394e6;
+	color: white;
+	padding: 7px 15px;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+ input[name=rfees],input[name=fees],input[name=date]{
+	display: flex;
+  justify-content: space-between;
+	width: 25%;
+}
+input[name=username],input[name=lastname],input[name=email]{
+	display: flex;
+  justify-content: space-between;
+	width: 50%;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container.option.service-small {
+   
+    font-size: 50px;    
+    padding: 5px;
+    background: #bf2323;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #000000;
+  margin-bottom: 25px;
+}
+
+
+
+.container {
+  background-color: #49eed0;
+  width:60%;
+  margin:auto
+
+}
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #626fc7;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 25px; 
+}
+
+
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #B0C4DE;
+  text-align: center;
+}

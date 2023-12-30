@@ -1,0 +1,196 @@
+ 
+
+body{
+	text-align:center;
+	 background-color:#2f6b6b; 
+	
+}
+
+
+h1{
+	
+	color: white;
+	text-align: center;
+}
+
+
+ .homepage{
+	
+	text-align:center;
+	
+} 
+
+
+.homebutton{
+	float:left;
+	display: inline-block; 
+	position: relative;
+	/* background-color: skyblue; */
+	height:325px;
+    width: 15%; 
+	
+} 
+
+
+
+.b1{
+	position: absolute;	 
+	left:10px;	
+	background-color: #1394e6;
+	color: white;
+	padding: 5px 15px;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;	
+	margin-bottom: 30px;
+}
+.b2{
+	position: absolute;	 
+	 left:10px;	
+	background-color: #1394e6;
+	color: white;
+	padding: 5px 15px;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;	
+	margin-bottom: 30px;
+}
+ .b3{
+	position: absolute;	 
+	 left:10px;	
+	background-color: #1394e6;
+	color: white;
+	padding: 5px 15px;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;	
+	margin-bottom: 30px;
+	
+}
+
+
+
+ .header{
+    float:center;
+	/* background-color: skyblue; */
+	display: inline-block; 
+	position: relative; 
+	text-align:center;	
+	height: 325px;
+	width: 800px;	 
+    width: 50%; 
+    margin-right: 200px;
+    margin-left:200px;
+	
+} 
+.img{
+	
+	position:relative; 
+	
+	right:175px; 
+	top:2px;
+}
+
+.mbody{
+	
+	
+  
+	display: inline-block;
+	/* postion: absolute; */
+	text-align:center;	
+	margin-right: 25px;
+	/* background-color: skyblue; */
+	margin-top: 300px;
+	color: white;
+	
+}
+
+
+
+.review{
+	text-align:center;
+	 display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+.gallery{
+	margin-top: 50px;
+	color: white;
+	
+}
+
+
+.bottom1{
+	margin-top: 50px;
+	position: relative;
+	left:150px;
+	display: inline-block;
+	float: left;
+	width:33.33%
+	text-align:center;
+	margin-left: 25px;
+	/* background-color: blue; */
+	
+}
+.bottom2{
+	margin-top: 50px;
+	position: relative;
+	display: inline-block;
+	/* margin: 0 auto; */
+	width:33.33%
+	text-align:center;
+	/* background-color: red; */
+	margin-left: 50px;
+}
+.bottom3{
+	margin-top: 50px;
+	margin-left:90px;
+	position: relative;
+	right:150px;
+	display: inline-block;
+	float: right;
+	width:33.33%
+	text-align:center;
+	/* background-color: yellow; */
+	
+}
+
+. footer{
+	
+	
+	text-align: center;
+}
+
+
+	
+	.dir {
+	
+    display: center;
+    background-color: #49b3df;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+	border: 1px solid white;
+}
+
+
+
+
+.button{
+	
+	/* border: 2px solid black;	 */
+	background-color: #49b3df;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration:underline;
+	font-weight:bold;
+	font-size: 18px;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;	
+}
